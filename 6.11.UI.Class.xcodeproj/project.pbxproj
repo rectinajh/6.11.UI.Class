@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		248D1CB51B293B6F00A8289A /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 248D1CB41B293B6F00A8289A /* header.jpg */; };
+		248D1CB91B293DCB00A8289A /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D1CB71B293DCB00A8289A /* CustomTableViewCell.m */; };
+		248D1CBA1B293DCB00A8289A /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248D1CB81B293DCB00A8289A /* CustomTableViewCell.xib */; };
+		248D1CBD1B2955B300A8289A /* XibTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D1CBC1B2955B300A8289A /* XibTableViewController.m */; };
+		248D1CC31B2965E500A8289A /* CodeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 248D1CC21B2965E500A8289A /* CodeTableViewCell.m */; };
 		24B896421B2916C700E455BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B896411B2916C700E455BD /* main.m */; };
 		24B896451B2916C700E455BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B896441B2916C700E455BD /* AppDelegate.m */; };
 		24B896481B2916C700E455BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24B896471B2916C700E455BD /* ViewController.m */; };
@@ -27,6 +32,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		248D1CB41B293B6F00A8289A /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
+		248D1CB61B293DCB00A8289A /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		248D1CB71B293DCB00A8289A /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
+		248D1CB81B293DCB00A8289A /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		248D1CBB1B2955B300A8289A /* XibTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibTableViewController.h; sourceTree = "<group>"; };
+		248D1CBC1B2955B300A8289A /* XibTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibTableViewController.m; sourceTree = "<group>"; };
+		248D1CC11B2965E500A8289A /* CodeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeTableViewCell.h; sourceTree = "<group>"; };
+		248D1CC21B2965E500A8289A /* CodeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeTableViewCell.m; sourceTree = "<group>"; };
 		24B8963C1B2916C700E455BD /* 6.11.UI.Class.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 6.11.UI.Class.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B896401B2916C700E455BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24B896411B2916C700E455BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,6 +73,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		248D1CCE1B2988FA00A8289A /* button2 */ = {
+			isa = PBXGroup;
+			children = (
+				248D1CBB1B2955B300A8289A /* XibTableViewController.h */,
+				248D1CBC1B2955B300A8289A /* XibTableViewController.m */,
+				248D1CB71B293DCB00A8289A /* CustomTableViewCell.m */,
+				248D1CB61B293DCB00A8289A /* CustomTableViewCell.h */,
+				248D1CB81B293DCB00A8289A /* CustomTableViewCell.xib */,
+			);
+			name = button2;
+			sourceTree = "<group>";
+		};
+		248D1CCF1B29892800A8289A /* button1 */ = {
+			isa = PBXGroup;
+			children = (
+				24B896461B2916C700E455BD /* ViewController.h */,
+				24B896471B2916C700E455BD /* ViewController.m */,
+			);
+			name = button1;
+			sourceTree = "<group>";
+		};
 		24B896331B2916C700E455BD = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +115,13 @@
 		24B8963E1B2916C700E455BD /* 6.11.UI.Class */ = {
 			isa = PBXGroup;
 			children = (
+				248D1CB41B293B6F00A8289A /* header.jpg */,
 				24B896431B2916C700E455BD /* AppDelegate.h */,
 				24B896441B2916C700E455BD /* AppDelegate.m */,
-				24B896461B2916C700E455BD /* ViewController.h */,
-				24B896471B2916C700E455BD /* ViewController.m */,
+				248D1CCF1B29892800A8289A /* button1 */,
+				248D1CCE1B2988FA00A8289A /* button2 */,
+				248D1CC11B2965E500A8289A /* CodeTableViewCell.h */,
+				248D1CC21B2965E500A8289A /* CodeTableViewCell.m */,
 				24B896491B2916C700E455BD /* Main.storyboard */,
 				24B8964C1B2916C700E455BD /* Images.xcassets */,
 				24B8964E1B2916C700E455BD /* LaunchScreen.xib */,
@@ -200,7 +237,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				24B8964B1B2916C700E455BD /* Main.storyboard in Resources */,
+				248D1CB51B293B6F00A8289A /* header.jpg in Resources */,
 				24B896501B2916C700E455BD /* LaunchScreen.xib in Resources */,
+				248D1CBA1B293DCB00A8289A /* CustomTableViewCell.xib in Resources */,
 				24B8964D1B2916C700E455BD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +260,9 @@
 			files = (
 				24B896481B2916C700E455BD /* ViewController.m in Sources */,
 				24B896451B2916C700E455BD /* AppDelegate.m in Sources */,
+				248D1CBD1B2955B300A8289A /* XibTableViewController.m in Sources */,
+				248D1CB91B293DCB00A8289A /* CustomTableViewCell.m in Sources */,
+				248D1CC31B2965E500A8289A /* CodeTableViewCell.m in Sources */,
 				24B896421B2916C700E455BD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +460,7 @@
 				24B896611B2916C700E455BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24B896621B2916C700E455BD /* Build configuration list for PBXNativeTarget "6.11.UI.ClassTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +469,7 @@
 				24B896641B2916C700E455BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
